@@ -17,7 +17,7 @@ To build the image on your own locally, do the following:
 ## How to Use
 
   1. [Install Docker](https://docs.docker.com/engine/installation/).
-  2. Build image via `docker build -t docker-rockylinux9-ansible .`
+  2. Pull pre-build image via `docker image pull kirillzak/docker-rockylinux9-ansible:latest` or build image via `docker build -t docker-rockylinux9-ansible .`
   3. Run a container from the image: `docker run --detach --privileged --volume /sys/fs/cgroup:/sys/fs/cgroup:ro docker-rockylinux9-ansible:latest`
 
 ## Author
