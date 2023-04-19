@@ -1,3 +1,5 @@
+# This repository depricated. Using https://github.com/kirill-zak/docker-rockylinux-ansible
+
 # Rocky Linux 9 Ansible test image
 Rocky Linux 9 docker container for Ansible playbook and role testing.
 
